@@ -1,0 +1,27 @@
+{
+  "name": "to-do-app-crud",
+  "version": "1.0.0",
+  "description": "To-Do CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taha26/To-Do-App-CRUD.git"
+  },
+  "author": "Muhammad Taha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taha26/To-Do-App-CRUD/issues"
+  },
+  "homepage": "https://github.com/taha26/To-Do-App-CRUD#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Todo App JavaScript | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js" integrity="sha512-bHeT+z+n8rh9CKrSrbyfbINxu7gsBmSHlDCb3gUF1BjmjDzKhoKspyB71k0CIRBSjE5IVQiMMVBgCWjF60qsvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>To-Do App</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button class="clearAll" onclick="clearAll()">Clear All</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
